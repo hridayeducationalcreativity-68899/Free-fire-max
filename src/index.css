@@ -1,0 +1,15 @@
+@import "tailwindcss";
+
+@theme {
+  --font-display: "Space Grotesk", sans-serif;
+  --color-ff-orange: #ff6b00;
+  --color-ff-yellow: #ffcc00;
+}
+
+@layer base {
+  body {
+    @apply bg-neutral-950 text-white overflow-hidden;
+    font-family: var(--font-display);
+  }
+}
+
